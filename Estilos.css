@@ -1,0 +1,58 @@
+.body {
+    justify-content: center;
+    padding: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenido-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagenes/vidrieria.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    color: black;
+    font-size: 100%;
+    font-family: Noto Serif, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    padding: 100px;
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead {
+    background-color: darkcyan;
+    border-bottom: solid 5px;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.footer {
+    background-color: lightblue;
+    color: black;
+    padding: 50px;
+}
+
